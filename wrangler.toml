@@ -11,7 +11,7 @@ CUSTOM_HEADERS_TO_IGNORE = []
 #Configuration for DEVELOPMENT environment
 #
 [env.staging]
-name = "shrill-moon-63c0"
+name = "rubeus-dev"
 
 [env.staging.vars]
 ENVIRONMENT = 'staging'
@@ -22,7 +22,7 @@ CUSTOM_HEADERS_TO_IGNORE = []
 #Configuration for PRODUCTION environment
 #
 [env.production]
-name = "rubeus"
+name = "shrill-moon-63c0"
 logpush=true
 
 [env.production.vars]
